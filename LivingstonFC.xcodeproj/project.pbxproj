@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B02FD322089ED17008C9FAF /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B02FD332089ED17008C9FAF /* SwiftyJSON.framework */; };
+		2B02FD352089FFF4008C9FAF /* BBCNewsArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B02FD342089FFF4008C9FAF /* BBCNewsArticle.swift */; };
+		2B4C1E162088F9AC00DF07E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C1E152088F9AC00DF07E9 /* AppDelegate.swift */; };
+		2B4C1E1D2088F9AC00DF07E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4C1E1B2088F9AC00DF07E9 /* Main.storyboard */; };
+		2B4C1E1F2088F9AC00DF07E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4C1E1E2088F9AC00DF07E9 /* Assets.xcassets */; };
+		2B4C1E222088F9AC00DF07E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4C1E202088F9AC00DF07E9 /* LaunchScreen.storyboard */; };
+		2B4C1E2D2088F9AC00DF07E9 /* LivingstonFCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C1E2C2088F9AC00DF07E9 /* LivingstonFCTests.swift */; };
+		2B4C1E382088FB2000DF07E9 /* NewsfeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C1E372088FB2000DF07E9 /* NewsfeedTableViewController.swift */; };
+		2B58CBA9208D058300A3CD0C /* BBCNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBA8208D058300A3CD0C /* BBCNewsTableViewCell.swift */; };
+		2B58CBAB208E01AF00A3CD0C /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBAA208E01AF00A3CD0C /* GameTableViewCell.swift */; };
+		2B58CBAD208E01E900A3CD0C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBAC208E01E900A3CD0C /* Game.swift */; };
+		2B58CBAF20931AC200A3CD0C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBAE20931AC200A3CD0C /* TabBarViewController.swift */; };
+		2B58CBB120931B2B00A3CD0C /* FixturesAndResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBB020931B2B00A3CD0C /* FixturesAndResultsTableViewController.swift */; };
+		2B58CBB320932DB100A3CD0C /* SquadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBB220932DB100A3CD0C /* SquadTableViewController.swift */; };
+		2B58CBB52093301700A3CD0C /* CommunityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBB42093301700A3CD0C /* CommunityTableViewController.swift */; };
+		2B58CBB7209330BF00A3CD0C /* StadiumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBB6209330BF00A3CD0C /* StadiumTableViewController.swift */; };
+		2B58CBB92093324300A3CD0C /* CoachingStaffTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBB82093324300A3CD0C /* CoachingStaffTableViewController.swift */; };
+		2B58CBBB2093329400A3CD0C /* SeasonTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBBA2093329400A3CD0C /* SeasonTicketsViewController.swift */; };
+		2B58CBBD209332FD00A3CD0C /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBBC209332FD00A3CD0C /* ContactUsViewController.swift */; };
+		2B58CBC1209619C300A3CD0C /* MatchUpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBC0209619C300A3CD0C /* MatchUpcomingViewController.swift */; };
+		2B58CBC3209619D000A3CD0C /* MatchPastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBC2209619D000A3CD0C /* MatchPastViewController.swift */; };
+		2B58CBC92098C05300A3CD0C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBC82098C05300A3CD0C /* Player.swift */; };
+		2B58CBCB2098D25B00A3CD0C /* SquadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBCA2098D25A00A3CD0C /* SquadTableViewCell.swift */; };
+		2B58CBCD2099B39100A3CD0C /* PlayerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBCC2099B39100A3CD0C /* PlayerProfileViewController.swift */; };
+		2B58CBCF209B3C8C00A3CD0C /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBCE209B3C8C00A3CD0C /* StatsViewController.swift */; };
+		2B58CBD1209B7DE400A3CD0C /* LeagueTableItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBD0209B7DE400A3CD0C /* LeagueTableItemTableViewCell.swift */; };
+		2B58CBD3209B7F5E00A3CD0C /* LeagueTableStatsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBD2209B7F5E00A3CD0C /* LeagueTableStatsItem.swift */; };
+		2B744F9A20AD980700D44793 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B58CBC82098C05300A3CD0C /* Player.swift */; };
+		2B7ABE37209DBC3700D07991 /* PlayerStatsItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE36209DBC3700D07991 /* PlayerStatsItemTableViewCell.swift */; };
+		2B7ABE39209DF1A400D07991 /* PickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE38209DF1A400D07991 /* PickerButton.swift */; };
+		2B7ABE3B209F107C00D07991 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE3A209F107C00D07991 /* Community.swift */; };
+		2B7ABE3D209F125600D07991 /* CommunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE3C209F125600D07991 /* CommunityTableViewCell.swift */; };
+		2B7ABE3F209F1ECE00D07991 /* CommunityItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE3E209F1ECE00D07991 /* CommunityItemViewController.swift */; };
+		2B7ABE41209F2F1800D07991 /* StadiumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE40209F2F1800D07991 /* StadiumTableViewCell.swift */; };
+		2B7ABE43209F838600D07991 /* CoachingStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE42209F838600D07991 /* CoachingStaff.swift */; };
+		2B7ABE45209F84BC00D07991 /* CoachingStaffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE44209F84BC00D07991 /* CoachingStaffTableViewCell.swift */; };
+		2B7ABE4920A0556A00D07991 /* LivingstonFCAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE4820A0556A00D07991 /* LivingstonFCAPIManager.swift */; };
+		2B7ABE4B20A189E100D07991 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE4A20A189E100D07991 /* LoginViewController.swift */; };
+		2B7ABE4D20A18FCC00D07991 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE4C20A18FCC00D07991 /* UserDefaultsManager.swift */; };
+		2B7ABE5120A21A3600D07991 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ABE5020A21A3600D07991 /* RegisterViewController.swift */; };
+		2BA139512089E195008D2516 /* BBCSportAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA139502089E195008D2516 /* BBCSportAPIManager.swift */; };
+		2BAF680D20A2E2EA00336D35 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF680C20A2E2EA00336D35 /* LogoutViewController.swift */; };
+		2BAF680F20A2E99D00336D35 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF680E20A2E99D00336D35 /* Switcher.swift */; };
+		2BAF681320A484A300336D35 /* PlayerClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF681220A484A300336D35 /* PlayerClassTests.swift */; };
+		2BAF681520A5AA7A00336D35 /* CustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF681420A5AA7A00336D35 /* CustomAlertController.swift */; };
+		2BAF681920A5E09B00336D35 /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF681820A5E09B00336D35 /* GameCollectionViewCell.swift */; };
+		2BAF681B20A5EF8500336D35 /* NewsfeedTopHeaderGameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF681A20A5EF8500336D35 /* NewsfeedTopHeaderGameTableViewCell.swift */; };
+		6734709F68A1E3EBE2C0D8A1 /* Pods_LivingstonFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB265E1FB1C4D47CE35AE753 /* Pods_LivingstonFC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B4C1E292088F9AC00DF07E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B4C1E0A2088F9AB00DF07E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4C1E112088F9AB00DF07E9;
+			remoteInfo = LivingstonFC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B02FD332089ED17008C9FAF /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B02FD342089FFF4008C9FAF /* BBCNewsArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCNewsArticle.swift; sourceTree = "<group>"; };
+		2B4C1E122088F9AC00DF07E9 /* LivingstonFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingstonFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4C1E152088F9AC00DF07E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B4C1E1C2088F9AC00DF07E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B4C1E1E2088F9AC00DF07E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B4C1E212088F9AC00DF07E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B4C1E232088F9AC00DF07E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4C1E282088F9AC00DF07E9 /* LivingstonFCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivingstonFCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4C1E2C2088F9AC00DF07E9 /* LivingstonFCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingstonFCTests.swift; sourceTree = "<group>"; };
+		2B4C1E2E2088F9AC00DF07E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4C1E372088FB2000DF07E9 /* NewsfeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedTableViewController.swift; sourceTree = "<group>"; };
+		2B58CBA8208D058300A3CD0C /* BBCNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCNewsTableViewCell.swift; sourceTree = "<group>"; };
+		2B58CBAA208E01AF00A3CD0C /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		2B58CBAC208E01E900A3CD0C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2B58CBAE20931AC200A3CD0C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		2B58CBB020931B2B00A3CD0C /* FixturesAndResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesAndResultsTableViewController.swift; sourceTree = "<group>"; };
+		2B58CBB220932DB100A3CD0C /* SquadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadTableViewController.swift; sourceTree = "<group>"; };
+		2B58CBB42093301700A3CD0C /* CommunityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewController.swift; sourceTree = "<group>"; };
+		2B58CBB6209330BF00A3CD0C /* StadiumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumTableViewController.swift; sourceTree = "<group>"; };
+		2B58CBB82093324300A3CD0C /* CoachingStaffTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingStaffTableViewController.swift; sourceTree = "<group>"; };
+		2B58CBBA2093329400A3CD0C /* SeasonTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonTicketsViewController.swift; sourceTree = "<group>"; };
+		2B58CBBC209332FD00A3CD0C /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		2B58CBC0209619C300A3CD0C /* MatchUpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchUpcomingViewController.swift; sourceTree = "<group>"; };
+		2B58CBC2209619D000A3CD0C /* MatchPastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPastViewController.swift; sourceTree = "<group>"; };
+		2B58CBC82098C05300A3CD0C /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2B58CBCA2098D25A00A3CD0C /* SquadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadTableViewCell.swift; sourceTree = "<group>"; };
+		2B58CBCC2099B39100A3CD0C /* PlayerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProfileViewController.swift; sourceTree = "<group>"; };
+		2B58CBCE209B3C8C00A3CD0C /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		2B58CBD0209B7DE400A3CD0C /* LeagueTableItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTableItemTableViewCell.swift; sourceTree = "<group>"; };
+		2B58CBD2209B7F5E00A3CD0C /* LeagueTableStatsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTableStatsItem.swift; sourceTree = "<group>"; };
+		2B7ABE36209DBC3700D07991 /* PlayerStatsItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatsItemTableViewCell.swift; sourceTree = "<group>"; };
+		2B7ABE38209DF1A400D07991 /* PickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerButton.swift; sourceTree = "<group>"; };
+		2B7ABE3A209F107C00D07991 /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
+		2B7ABE3C209F125600D07991 /* CommunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewCell.swift; sourceTree = "<group>"; };
+		2B7ABE3E209F1ECE00D07991 /* CommunityItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityItemViewController.swift; sourceTree = "<group>"; };
+		2B7ABE40209F2F1800D07991 /* StadiumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumTableViewCell.swift; sourceTree = "<group>"; };
+		2B7ABE42209F838600D07991 /* CoachingStaff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingStaff.swift; sourceTree = "<group>"; };
+		2B7ABE44209F84BC00D07991 /* CoachingStaffTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingStaffTableViewCell.swift; sourceTree = "<group>"; };
+		2B7ABE4820A0556A00D07991 /* LivingstonFCAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingstonFCAPIManager.swift; sourceTree = "<group>"; };
+		2B7ABE4A20A189E100D07991 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B7ABE4C20A18FCC00D07991 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		2B7ABE5020A21A3600D07991 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2BA139502089E195008D2516 /* BBCSportAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCSportAPIManager.swift; sourceTree = "<group>"; };
+		2BAF680C20A2E2EA00336D35 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		2BAF680E20A2E99D00336D35 /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		2BAF681220A484A300336D35 /* PlayerClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerClassTests.swift; sourceTree = "<group>"; };
+		2BAF681420A5AA7A00336D35 /* CustomAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertController.swift; sourceTree = "<group>"; };
+		2BAF681820A5E09B00336D35 /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		2BAF681A20A5EF8500336D35 /* NewsfeedTopHeaderGameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedTopHeaderGameTableViewCell.swift; sourceTree = "<group>"; };
+		2ED23FCBDE6CC29613575842 /* Pods-LivingstonFC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivingstonFC.release.xcconfig"; path = "Pods/Target Support Files/Pods-LivingstonFC/Pods-LivingstonFC.release.xcconfig"; sourceTree = "<group>"; };
+		4484A82F215CD0DF40FE2107 /* Pods-LivingstonFC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivingstonFC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LivingstonFC/Pods-LivingstonFC.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4D3A49B47462FFD724B7CB /* Pods_LivingstonFCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivingstonFCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB265E1FB1C4D47CE35AE753 /* Pods_LivingstonFC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivingstonFC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B4C1E0F2088F9AB00DF07E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B02FD322089ED17008C9FAF /* SwiftyJSON.framework in Frameworks */,
+				6734709F68A1E3EBE2C0D8A1 /* Pods_LivingstonFC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4C1E252088F9AC00DF07E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4C1E092088F9AB00DF07E9 = {
+			isa = PBXGroup;
+			children = (
+				2B4C1E142088F9AC00DF07E9 /* LivingstonFC */,
+				2B4C1E2B2088F9AC00DF07E9 /* LivingstonFCTests */,
+				2B4C1E132088F9AC00DF07E9 /* Products */,
+				CE68C70D2B808109A45972A0 /* Pods */,
+				F9CD44DBEA690B7635B1FAA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B4C1E132088F9AC00DF07E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B4C1E122088F9AC00DF07E9 /* LivingstonFC.app */,
+				2B4C1E282088F9AC00DF07E9 /* LivingstonFCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4C1E142088F9AC00DF07E9 /* LivingstonFC */ = {
+			isa = PBXGroup;
+			children = (
+				2B7ABE34209DB3EC00D07991 /* Model */,
+				2B7ABE33209DB3BA00D07991 /* Controller */,
+				2B4C1E152088F9AC00DF07E9 /* AppDelegate.swift */,
+				2BAF680E20A2E99D00336D35 /* Switcher.swift */,
+				2B4C1E1B2088F9AC00DF07E9 /* Main.storyboard */,
+				2B7ABE35209DB49100D07991 /* View */,
+				2B4C1E1E2088F9AC00DF07E9 /* Assets.xcassets */,
+				2B4C1E202088F9AC00DF07E9 /* LaunchScreen.storyboard */,
+				2B4C1E232088F9AC00DF07E9 /* Info.plist */,
+			);
+			path = LivingstonFC;
+			sourceTree = "<group>";
+		};
+		2B4C1E2B2088F9AC00DF07E9 /* LivingstonFCTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BAF681120A4844100336D35 /* Testing Controllers */,
+				2BAF681020A4843800336D35 /* Testing Models */,
+				2B4C1E2C2088F9AC00DF07E9 /* LivingstonFCTests.swift */,
+				2B4C1E2E2088F9AC00DF07E9 /* Info.plist */,
+			);
+			path = LivingstonFCTests;
+			sourceTree = "<group>";
+		};
+		2B7ABE33209DB3BA00D07991 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B7ABE4A20A189E100D07991 /* LoginViewController.swift */,
+				2B58CBCE209B3C8C00A3CD0C /* StatsViewController.swift */,
+				2B58CBAE20931AC200A3CD0C /* TabBarViewController.swift */,
+				2B4C1E372088FB2000DF07E9 /* NewsfeedTableViewController.swift */,
+				2B58CBCC2099B39100A3CD0C /* PlayerProfileViewController.swift */,
+				2B7ABE5020A21A3600D07991 /* RegisterViewController.swift */,
+				2B58CBC0209619C300A3CD0C /* MatchUpcomingViewController.swift */,
+				2B58CBC2209619D000A3CD0C /* MatchPastViewController.swift */,
+				2B58CBBC209332FD00A3CD0C /* ContactUsViewController.swift */,
+				2B58CBBA2093329400A3CD0C /* SeasonTicketsViewController.swift */,
+				2B58CBB82093324300A3CD0C /* CoachingStaffTableViewController.swift */,
+				2B58CBB6209330BF00A3CD0C /* StadiumTableViewController.swift */,
+				2B58CBB42093301700A3CD0C /* CommunityTableViewController.swift */,
+				2B58CBB220932DB100A3CD0C /* SquadTableViewController.swift */,
+				2B58CBB020931B2B00A3CD0C /* FixturesAndResultsTableViewController.swift */,
+				2B7ABE3E209F1ECE00D07991 /* CommunityItemViewController.swift */,
+				2BAF680C20A2E2EA00336D35 /* LogoutViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B7ABE34209DB3EC00D07991 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BA139502089E195008D2516 /* BBCSportAPIManager.swift */,
+				2B58CBD2209B7F5E00A3CD0C /* LeagueTableStatsItem.swift */,
+				2B58CBC82098C05300A3CD0C /* Player.swift */,
+				2B58CBAC208E01E900A3CD0C /* Game.swift */,
+				2B02FD342089FFF4008C9FAF /* BBCNewsArticle.swift */,
+				2B7ABE3A209F107C00D07991 /* Community.swift */,
+				2B7ABE42209F838600D07991 /* CoachingStaff.swift */,
+				2B7ABE4820A0556A00D07991 /* LivingstonFCAPIManager.swift */,
+				2B7ABE4C20A18FCC00D07991 /* UserDefaultsManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B7ABE35209DB49100D07991 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B7ABE38209DF1A400D07991 /* PickerButton.swift */,
+				2B7ABE36209DBC3700D07991 /* PlayerStatsItemTableViewCell.swift */,
+				2B58CBD0209B7DE400A3CD0C /* LeagueTableItemTableViewCell.swift */,
+				2B58CBCA2098D25A00A3CD0C /* SquadTableViewCell.swift */,
+				2B58CBA8208D058300A3CD0C /* BBCNewsTableViewCell.swift */,
+				2B58CBAA208E01AF00A3CD0C /* GameTableViewCell.swift */,
+				2B7ABE3C209F125600D07991 /* CommunityTableViewCell.swift */,
+				2B7ABE40209F2F1800D07991 /* StadiumTableViewCell.swift */,
+				2B7ABE44209F84BC00D07991 /* CoachingStaffTableViewCell.swift */,
+				2BAF681420A5AA7A00336D35 /* CustomAlertController.swift */,
+				2BAF681820A5E09B00336D35 /* GameCollectionViewCell.swift */,
+				2BAF681A20A5EF8500336D35 /* NewsfeedTopHeaderGameTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BAF681020A4843800336D35 /* Testing Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BAF681220A484A300336D35 /* PlayerClassTests.swift */,
+			);
+			path = "Testing Models";
+			sourceTree = "<group>";
+		};
+		2BAF681120A4844100336D35 /* Testing Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Testing Controllers";
+			sourceTree = "<group>";
+		};
+		CE68C70D2B808109A45972A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4484A82F215CD0DF40FE2107 /* Pods-LivingstonFC.debug.xcconfig */,
+				2ED23FCBDE6CC29613575842 /* Pods-LivingstonFC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9CD44DBEA690B7635B1FAA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B02FD332089ED17008C9FAF /* SwiftyJSON.framework */,
+				EB265E1FB1C4D47CE35AE753 /* Pods_LivingstonFC.framework */,
+				6D4D3A49B47462FFD724B7CB /* Pods_LivingstonFCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B4C1E112088F9AB00DF07E9 /* LivingstonFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4C1E312088F9AC00DF07E9 /* Build configuration list for PBXNativeTarget "LivingstonFC" */;
+			buildPhases = (
+				F87D0F005C062B48A13B085C /* [CP] Check Pods Manifest.lock */,
+				2B4C1E0E2088F9AB00DF07E9 /* Sources */,
+				2B4C1E0F2088F9AB00DF07E9 /* Frameworks */,
+				2B4C1E102088F9AB00DF07E9 /* Resources */,
+				64FE17525C057E217050BEED /* [CP] Embed Pods Frameworks */,
+				206EE9FCD5CA0C90301E98AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivingstonFC;
+			productName = LivingstonFC;
+			productReference = 2B4C1E122088F9AC00DF07E9 /* LivingstonFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B4C1E272088F9AC00DF07E9 /* LivingstonFCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4C1E342088F9AC00DF07E9 /* Build configuration list for PBXNativeTarget "LivingstonFCTests" */;
+			buildPhases = (
+				2B4C1E242088F9AC00DF07E9 /* Sources */,
+				2B4C1E252088F9AC00DF07E9 /* Frameworks */,
+				2B4C1E262088F9AC00DF07E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4C1E2A2088F9AC00DF07E9 /* PBXTargetDependency */,
+			);
+			name = LivingstonFCTests;
+			productName = LivingstonFCTests;
+			productReference = 2B4C1E282088F9AC00DF07E9 /* LivingstonFCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B4C1E0A2088F9AB00DF07E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Iza Ledzka";
+				TargetAttributes = {
+					2B4C1E112088F9AB00DF07E9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2B4C1E272088F9AC00DF07E9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B4C1E112088F9AB00DF07E9;
+					};
+				};
+			};
+			buildConfigurationList = 2B4C1E0D2088F9AB00DF07E9 /* Build configuration list for PBXProject "LivingstonFC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B4C1E092088F9AB00DF07E9;
+			productRefGroup = 2B4C1E132088F9AC00DF07E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B4C1E112088F9AB00DF07E9 /* LivingstonFC */,
+				2B4C1E272088F9AC00DF07E9 /* LivingstonFCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B4C1E102088F9AB00DF07E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4C1E222088F9AC00DF07E9 /* LaunchScreen.storyboard in Resources */,
+				2B4C1E1F2088F9AC00DF07E9 /* Assets.xcassets in Resources */,
+				2B4C1E1D2088F9AC00DF07E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4C1E262088F9AC00DF07E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		206EE9FCD5CA0C90301E98AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LivingstonFC/Pods-LivingstonFC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64FE17525C057E217050BEED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LivingstonFC/Pods-LivingstonFC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87D0F005C062B48A13B085C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4C1E0E2088F9AB00DF07E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAF680F20A2E99D00336D35 /* Switcher.swift in Sources */,
+				2B58CBB120931B2B00A3CD0C /* FixturesAndResultsTableViewController.swift in Sources */,
+				2B58CBAF20931AC200A3CD0C /* TabBarViewController.swift in Sources */,
+				2B7ABE4D20A18FCC00D07991 /* UserDefaultsManager.swift in Sources */,
+				2B7ABE4920A0556A00D07991 /* LivingstonFCAPIManager.swift in Sources */,
+				2BAF681B20A5EF8500336D35 /* NewsfeedTopHeaderGameTableViewCell.swift in Sources */,
+				2B58CBBD209332FD00A3CD0C /* ContactUsViewController.swift in Sources */,
+				2B58CBB7209330BF00A3CD0C /* StadiumTableViewController.swift in Sources */,
+				2B58CBCF209B3C8C00A3CD0C /* StatsViewController.swift in Sources */,
+				2B7ABE3F209F1ECE00D07991 /* CommunityItemViewController.swift in Sources */,
+				2B4C1E382088FB2000DF07E9 /* NewsfeedTableViewController.swift in Sources */,
+				2B58CBB92093324300A3CD0C /* CoachingStaffTableViewController.swift in Sources */,
+				2B7ABE37209DBC3700D07991 /* PlayerStatsItemTableViewCell.swift in Sources */,
+				2B58CBBB2093329400A3CD0C /* SeasonTicketsViewController.swift in Sources */,
+				2BA139512089E195008D2516 /* BBCSportAPIManager.swift in Sources */,
+				2B58CBAD208E01E900A3CD0C /* Game.swift in Sources */,
+				2B7ABE3B209F107C00D07991 /* Community.swift in Sources */,
+				2B7ABE39209DF1A400D07991 /* PickerButton.swift in Sources */,
+				2BAF681920A5E09B00336D35 /* GameCollectionViewCell.swift in Sources */,
+				2B7ABE5120A21A3600D07991 /* RegisterViewController.swift in Sources */,
+				2B4C1E162088F9AC00DF07E9 /* AppDelegate.swift in Sources */,
+				2B58CBB52093301700A3CD0C /* CommunityTableViewController.swift in Sources */,
+				2B58CBCD2099B39100A3CD0C /* PlayerProfileViewController.swift in Sources */,
+				2B58CBC3209619D000A3CD0C /* MatchPastViewController.swift in Sources */,
+				2B7ABE41209F2F1800D07991 /* StadiumTableViewCell.swift in Sources */,
+				2B58CBA9208D058300A3CD0C /* BBCNewsTableViewCell.swift in Sources */,
+				2B7ABE4B20A189E100D07991 /* LoginViewController.swift in Sources */,
+				2B02FD352089FFF4008C9FAF /* BBCNewsArticle.swift in Sources */,
+				2B58CBB320932DB100A3CD0C /* SquadTableViewController.swift in Sources */,
+				2B58CBC1209619C300A3CD0C /* MatchUpcomingViewController.swift in Sources */,
+				2B58CBD1209B7DE400A3CD0C /* LeagueTableItemTableViewCell.swift in Sources */,
+				2B7ABE43209F838600D07991 /* CoachingStaff.swift in Sources */,
+				2B7ABE45209F84BC00D07991 /* CoachingStaffTableViewCell.swift in Sources */,
+				2BAF681520A5AA7A00336D35 /* CustomAlertController.swift in Sources */,
+				2B58CBCB2098D25B00A3CD0C /* SquadTableViewCell.swift in Sources */,
+				2B58CBD3209B7F5E00A3CD0C /* LeagueTableStatsItem.swift in Sources */,
+				2B7ABE3D209F125600D07991 /* CommunityTableViewCell.swift in Sources */,
+				2B58CBC92098C05300A3CD0C /* Player.swift in Sources */,
+				2BAF680D20A2E2EA00336D35 /* LogoutViewController.swift in Sources */,
+				2B58CBAB208E01AF00A3CD0C /* GameTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4C1E242088F9AC00DF07E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4C1E2D2088F9AC00DF07E9 /* LivingstonFCTests.swift in Sources */,
+				2B744F9A20AD980700D44793 /* Player.swift in Sources */,
+				2BAF681320A484A300336D35 /* PlayerClassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B4C1E2A2088F9AC00DF07E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B4C1E112088F9AB00DF07E9 /* LivingstonFC */;
+			targetProxy = 2B4C1E292088F9AC00DF07E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B4C1E1B2088F9AC00DF07E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4C1E1C2088F9AC00DF07E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B4C1E202088F9AC00DF07E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4C1E212088F9AC00DF07E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B4C1E2F2088F9AC00DF07E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B4C1E302088F9AC00DF07E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B4C1E322088F9AC00DF07E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4484A82F215CD0DF40FE2107 /* Pods-LivingstonFC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EM6DC2K3NS;
+				INFOPLIST_FILE = LivingstonFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iledzka.LivingstonFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2B4C1E332088F9AC00DF07E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED23FCBDE6CC29613575842 /* Pods-LivingstonFC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EM6DC2K3NS;
+				INFOPLIST_FILE = LivingstonFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iledzka.LivingstonFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2B4C1E352088F9AC00DF07E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EM6DC2K3NS;
+				INFOPLIST_FILE = LivingstonFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iledzka.LivingstonFCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivingstonFC.app/LivingstonFC";
+			};
+			name = Debug;
+		};
+		2B4C1E362088F9AC00DF07E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EM6DC2K3NS;
+				INFOPLIST_FILE = LivingstonFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iledzka.LivingstonFCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivingstonFC.app/LivingstonFC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B4C1E0D2088F9AB00DF07E9 /* Build configuration list for PBXProject "LivingstonFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4C1E2F2088F9AC00DF07E9 /* Debug */,
+				2B4C1E302088F9AC00DF07E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4C1E312088F9AC00DF07E9 /* Build configuration list for PBXNativeTarget "LivingstonFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4C1E322088F9AC00DF07E9 /* Debug */,
+				2B4C1E332088F9AC00DF07E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4C1E342088F9AC00DF07E9 /* Build configuration list for PBXNativeTarget "LivingstonFCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4C1E352088F9AC00DF07E9 /* Debug */,
+				2B4C1E362088F9AC00DF07E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B4C1E0A2088F9AB00DF07E9 /* Project object */;
+}

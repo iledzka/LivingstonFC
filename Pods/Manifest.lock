@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.7.2)
+  - JSONWebToken (2.2.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - JSONWebToken
+  - SwiftyJSON (~> 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  JSONWebToken: 6fae32489632658d563dd6952a5c34020ea813e4
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 4dfcdfd1bdb8641b93d6c4fe65edc509906e6c63
+
+COCOAPODS: 1.2.0
